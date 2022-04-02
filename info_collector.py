@@ -9,7 +9,7 @@ command = ''
 
 def args():
      parser = argparse.ArgumentParser("""This script collect info about host:
-               software,hardware and settings.""")
+               software,hardware and settings.For Linux ONLY.""")
 
      parser.add_argument("--hard", help="All hardware info (-c,-d,-n,")
      parser.add_argument("-c",action='store_true',help="Not show CPU info 'lscpu'")
